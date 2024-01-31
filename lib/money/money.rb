@@ -210,8 +210,8 @@ class Money
     # Default to using legacy locale backend
     self.locale_backend = :legacy
 
-    # Default to not using infinite precision cents
-    self.default_infinite_precision = false
+    # Default to using infinite precision cents
+    self.default_infinite_precision = true
 
     # Default to bankers rounding
     self.rounding_mode = BigDecimal::ROUND_HALF_EVEN
